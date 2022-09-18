@@ -1,7 +1,6 @@
 .contacts__container {
-    width: 1600px;
     margin: 0 auto;
-    padding: 60px 0 60px 215px;
+    justify-content: center;
     display: flex;
     align-items: baseline;
 
@@ -65,7 +64,9 @@ footer .logo {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    background-color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color); 
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .join__icon-holder {
@@ -193,8 +194,6 @@ footer .logo {
         margin-bottom: 9px;
     }
 }
-
-
 
 .contacts.link {
     color: var(--color-contacts);

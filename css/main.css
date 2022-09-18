@@ -139,6 +139,7 @@ header .logo {
 }
 .advantages__list {
   display: flex;
+  justify-content: center;
 }
 .advantages__holder {
   max-width: 270px;
@@ -164,24 +165,18 @@ header .logo {
 }
 
 .profile {
+  padding-top: 0;
+  padding-bottom: 94px;
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.profile__section {
-  padding-top: 0;
-}
-.profile__section .section-title {
+.profile .section-title {
   margin-bottom: 50px;
   text-align: center;
 }
 .profile__layer {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--secondary-text-color);
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -190,6 +185,14 @@ header .logo {
   align-items: center;
   position: absolute;
   bottom: 0;
+}
+.profile__layer-descr {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
 .profile__list-holder {
   position: relative;
@@ -206,7 +209,7 @@ header .logo {
   display: block;
 }
 
-.team__container {
+.team {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -581,9 +584,8 @@ ul {
 }
 
 .contacts__container {
-  width: 1600px;
   margin: 0 auto;
-  padding: 60px 0 60px 215px;
+  justify-content: center;
   display: flex;
   align-items: baseline;
 }
@@ -645,6 +647,8 @@ footer .logo {
   margin: 0 auto;
   padding: 0 15px;
   background-color: var(--secondary-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .join__icon-holder {
