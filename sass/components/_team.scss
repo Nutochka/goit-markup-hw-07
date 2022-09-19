@@ -1,7 +1,4 @@
 .team {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
     background-size: 100%;
 }
 
@@ -9,6 +6,8 @@
     width: 100%;
     margin: 0 auto;
     background-color: var(--section-background-color);
+    display: flex;
+    justify-content: center;
 
     & .section-title {
         text-align: center;

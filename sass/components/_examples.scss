@@ -1,8 +1,4 @@
 .examples{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-
     &__hover {
         font-size: 18px;
         line-height: 1.56;
@@ -33,10 +29,6 @@
         border-left: 1px solid var(--color-borders);
         border-right: 1px solid var(--color-borders);
         border-bottom: 1px solid var(--color-borders);
-    }
-    
-    &__items {
-        padding-top: 94px;
     }
     
     &__title {

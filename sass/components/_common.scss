@@ -41,6 +41,12 @@ ul {
     padding: 94px 0;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
   .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -111,9 +117,6 @@ ul {
     background-color: var(--primary-background-color);
 }
 }
-
-
-
 
 .order__button {
     letter-spacing: 0.06em;
